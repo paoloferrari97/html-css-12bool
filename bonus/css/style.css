@@ -1,0 +1,8 @@
+[class*="col-"]{
+    height: 50px;
+    border: 1px solid black;
+}
+
+.col-1.black{
+    background-color: black;
+}
