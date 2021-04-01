@@ -1,7 +1,14 @@
 [class*="col-"]{
     background-color: #ffc0cb;
     border: 1px solid black;
-    height: 200px;
     line-height: 200px;
     text-align: center;
+}
+
+.col-6 > .row{
+    padding: 5px;
+}
+.col-6 > .row > div{
+    background-color: #f07f80;
+    border: 1px solid white;
 }
